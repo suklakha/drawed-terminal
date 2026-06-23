@@ -13,7 +13,7 @@ else:
     st.error("System Error: API Key missing. Please check configuration.")
     st.stop()
 
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # 3. Create chat memory
 if "messages" not in st.session_state:
